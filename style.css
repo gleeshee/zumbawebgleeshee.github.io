@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif
+}
+.header{
+    padding: 2px 20px;
+    background-color:#353541;
+    margin-top: 0;
+
+}
+.nav_firstheader{
+    display: flex;
+    padding:0;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:75px;
+    margin: 0;
+    margin-left:0px;
+    display: inline;
+}
+.nav-header{
+    flex: 1;
+    text-align: right;
+}
+.nav-header ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-header ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 0px 5px;
+    position: relative;
+}
+.nav-header ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 13px;
+    margin-top: 0;
+    margin-trim: 0;
+
+}
+.nav_secheader{
+    display: flex;
+    padding:0;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_secheader img{
+    width: 100px;
+    margin:0;
+    margin-left: 10px;
+    margin-top:0;
+}
+.second_header{
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+.second_header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+}
+.second_header ul li a{
+    color:black;
+    text-decoration:none;
+    font-size: 12px;
+    font:bold;
+    
+}
+.main_home{
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/fsale.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr) ;
+    align-items: center;
+
+}
+.main_home h1{
+    color:white;
+    font-size: 40px ;
+    font-weight: ;
+}
+.main_reg{
+    display:inline-block;
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 10px 25px;
+    background-color: white;
+    transition: all .42s ease;
+}
+.main_text{
+    color: white;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.main_btn{
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+.main_text ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.main_text ul li a{
+    text-decoration: none;
+
+}
+.main_watch {
+    color: white;
+}
+.how-to-2.white {
+  background: #fff;
+  color: #2C2D37;
+  display: flex; 
+  align-items: center;
+}
+
+.how-to-2__container {
+  display: flex; 
+  align-items: center;
+}
+
+.how-to-2__headline {
+  margin-left: 90px;
+  font-size: 40px;
+   
+}
+
+.how-to-2__steps {
+  display: flex; 
+  flex-direction: column;
+  margin-left: 400px; 
+}
+
+.how-to-2__steps--step {
+  display: flex; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.how-to-2__steps--num {
+  margin-right: 20px; 
+}
+.how-to-2__headline span{
+    background-color: yellowgreen;
+}
+.bottom-section {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 400px;
+}
+
+.white-box {
+  position: absolute;
+  top: 110px;
+  bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0;
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.register-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #BE2D93;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #a62483;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 16px;
+}
+
+
